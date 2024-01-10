@@ -1,0 +1,4 @@
+font "$term-font"
+text-color "$text-color"
+border-color "$accent-color"
+background-color "$background-color"

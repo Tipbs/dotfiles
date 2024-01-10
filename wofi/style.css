@@ -1,0 +1,48 @@
+window {
+  border-radius: 15px;
+  border: 4px solid rgba(76, 120, 153, 0.5);
+  background-color: rgba(21, 24, 32, 0.9);
+}
+
+#input {
+  border-radius: 15px 15px 0px 0px;
+  border: 2px solid rgba(76, 120, 153, 0.5);
+  background-color: rgba(43, 48, 64, 0.6);
+}
+
+#inner-box {
+  /* margin: 5px; */
+  /* border: 2px solid yellow; */
+  /* background-color: yellow; */
+}
+
+#outer-box {
+  /* margin: 5px; */
+  /* border: 2px solid green; */
+  /* background-color: green; */
+}
+
+#scroll {
+  /* margin: 5px; */
+  /* border: 2px solid orange; */
+  /* background-color: orange; */
+}
+
+#text {
+  /* margin: 5px; */
+  /* border: 2px solid cyan; */
+  /* background-color: cyan; */
+} 
+
+#entry {
+  margin: 1px;
+}
+
+#entry:selected {
+  background-color: #4C7899;
+}
+
+image {
+  margin-left: 3px;
+  margin-right: 6px;
+}
