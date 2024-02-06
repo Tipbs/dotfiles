@@ -72,8 +72,9 @@
         "format": "  {}",
         "return-type": "json",
         "on-click": "hyprctl dispatch focuswindow Spotify",
-        "on-scroll-up": "playerctl next",
-        "on-scroll-down": "playerctl previous"
+        "on-click-right": "hyprctl dispatch exec 'playerctl play-pause -p spotify'",
+        "on-scroll-up": "playerctl next -p spotify",
+        "on-scroll-down": "playerctl previous -p spotify"
     },
 
     "battery": {

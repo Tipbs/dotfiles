@@ -102,7 +102,7 @@ export GPG_TTY=$(tty)
 # else
 #   export EDITOR='mvim'
 # fi
-export EDITOR='lvim'
+export EDITOR='nvim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
@@ -149,8 +149,8 @@ source '/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="lvim ~/.config/zsh/.zshrc"
-alias hyprconfig="lvim ~/.config/hypr/hyprland.conf"
+alias zshconfig="$EDITOR ~/.config/zsh/.zshrc"
+alias hyprconfig="$EDITOR ~/.config/hypr/hyprland.conf"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="exa"
 alias cat="colorize_cat"
